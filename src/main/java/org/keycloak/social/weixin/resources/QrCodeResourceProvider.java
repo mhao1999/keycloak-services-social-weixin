@@ -68,8 +68,8 @@ public class QrCodeResourceProvider implements RealmResourceProvider {
                     <title>QR Code Page</title>
                 </head>
                 <body>
-                    <p>请使用微信扫描下方二维码：</p>
-                    <div id="qrCodeContainer">
+                    <p style="text-align: center;">请使用微信扫描下方二维码：</p>
+                    <div id="qrCodeContainer" style="display: flex; justify-content: center;">
                         <img src="%s" alt="%s">
                 
                         <p></p>
